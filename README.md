@@ -13,6 +13,9 @@ Loads an custom language file that is not updated during core upgrades.
 2. Go to ACP -> Configuration -> Plugins and activate/install the plugin.
 3. __Enjoy!__
 
+### Update
+_No updates at the moment._
+
 ### Support
 Please visit [MyBB Plugins](http://forums.mybb-plugins.com/Forum-Free-Plugins--29 "Visit MyBB Plugins") for premium support. Free support may be received in the [MyBB Community](http://community.mybb.com "Visit MyBB Community")
 
