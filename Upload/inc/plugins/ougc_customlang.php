@@ -51,6 +51,7 @@ function ougc_customlang_info()
 		'authorsite'	=> 'https://ougc.network',
 		'version'		=> '1.8',
 		'versioncode'	=> 1822,
+		'codename'		=> 'ougc_customlang',
 		'compatibility'	=> '18*'
 	);
 }
