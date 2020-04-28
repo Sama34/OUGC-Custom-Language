@@ -28,7 +28,7 @@
 ****************************************************************************/
 
 $l['ougc_customlang'] = 'OUGC Custom Language';
-$l['ougc_customlang_desc'] = 'Loads a custom language file that is not overwritten during core upgrades.';
+$l['ougc_customlang_desc'] = 'Carga un archivo de idioma que no es reemplazado durante actualizaciones.';
 
-//$l['myphrase'] = 'My phrase.';
-//Now paste {$lang->myphrase} in almost any template.
+//$l['mifrase'] = 'Mi frase.';
+//Ahora coloca {$lang->mifrase} en casi cualquier template.

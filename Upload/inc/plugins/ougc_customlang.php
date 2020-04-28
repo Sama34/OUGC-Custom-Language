@@ -4,11 +4,11 @@
  *
  *	OUGC Custom Language plugin (/inc/plugins/ougc_customlang.php)
  *	Author: Omar Gonzalez
- *	Copyright: © 2012 - 2014 Omar Gonzalez
+ *	Copyright: © 2012 - 2020 Omar Gonzalez
  *
- *	Website: http://omarg.me
+ *	Website: https://ougc.network
  *
- *	Loads an custom language file that is not updated during core upgrades.
+ *	Loads a custom language file that is not overwritten during core upgrades.
  *
  ***************************************************************************
  
@@ -40,14 +40,17 @@ if(!defined('IN_ADMINCP'))
 // Plugin API
 function ougc_customlang_info()
 {
+	global $lang;
+	ougc_customlang();
+
 	return array(
 		'name'          => 'OUGC Custom Language',
-		'description'   => 'Loads an custom language file that is not updated during core upgrades.',
-		'website'		=> 'http://mods.mybb.com/view/ougc-custom-language',
+		'description'   => 'Loads a custom language file that is not overwritten during core upgrades.',
+		'website'		=> 'https://ougc.network',
 		'author'		=> 'Omar G.',
-		'authorsite'	=> 'http://omarg.me',
-		'version'		=> '1.0',
-		'versioncode'	=> 1000,
+		'authorsite'	=> 'https://ougc.network',
+		'version'		=> '1.8',
+		'versioncode'	=> 1822,
 		'compatibility'	=> '18*'
 	);
 }
@@ -107,5 +110,5 @@ function ougc_customlang()
 {
 	global $lang;
 
-	isset($lang->ougc_customlang) or $lang->load('ougc_customlang');
+	isset($lang->ougc_customlang) or $lang->load('ougc_customlang', true);
 }
